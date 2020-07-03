@@ -11,7 +11,7 @@ arch:
 env:
   matrix:
     - PYTHON=2.7  CONDA_ENV=/opt/conda/envs/py27
-    - PYTHON=3.5  CONDA_ENV=/opt/conda
+    - PYTHON=3.8  CONDA_ENV=/opt/conda
 
 before_install:
   - source continuous_integration/setup_hdfs.sh
