@@ -4,6 +4,10 @@ dist: trusty
 services:
   - docker
 
+arch:
+  - amd64
+  - arm64
+
 env:
   matrix:
     - PYTHON=2.7  CONDA_ENV=/opt/conda/envs/py27
